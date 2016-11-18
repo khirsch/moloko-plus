@@ -13,18 +13,7 @@ h1 {
   font-weight: normal;
   display: inline;
   font-size: 50px;
-  color: #D73202;
-}
-
-.header {
-  width: 70%;
-  margin: 1% 15%;
-}
-
-.header p {
-  float: right;
-  position: relative;
-  top: 30px;
+  color: #D47B37;
 }
 
 a, a:visited {
@@ -35,7 +24,7 @@ a, a:visited {
 }
 
 a:hover {
-  color: #D73202;
+  color: #D47B37;
   text-decoration: underline;
   cursor: crosshair;
 }
@@ -56,7 +45,7 @@ input {
 }
 
 button {
-  background-color: #D73202;
+  background-color: #D47B37;
   color: #FFF;
   border-style: none;
   border-radius: 5px;
@@ -64,6 +53,17 @@ button {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 14px;
   margin-top: 10px;
+}
+
+.header {
+  width: 70%;
+  margin: 1% 15%;
+}
+
+.header p {
+  float: right;
+  position: relative;
+  top: 30px;
 }
 
 .content {
@@ -84,13 +84,39 @@ button {
 .content p {
   width: 80%;
   position: relative;
-  top: 50px;
+  top: 60px;
   left: 100px;
 }
 
 .content p:last-of-type {
   text-align: center;
   margin-top: 70px;
+}
+
+.footer {
+  clear: both;
+  width: 30%;
+  margin: 0 35%;
+  overflow: auto;
+}
+
+.gallery {
+  float: inherit;
+  width: 303px;
+  margin: auto;
+}
+
+.gallery img:nth-child(-n+4) {
+  margin-right: 15px;
+}
+
+.gallery img:nth-child(-n+2), img:nth-child(n+4) {
+  position: relative;
+  bottom: 30px;
+}
+
+#clockwork {
+  width: 100px;
 }
 
 #logo {
