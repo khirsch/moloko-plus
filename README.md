@@ -4,11 +4,11 @@
 
 ## Description
 
-Moloko Plus is a product showcase page created with HTML and CSS.
+Moloko Plus is a product showcase created with HTML and CSS.
 
 ## Installation
 
-* `git clone https://github.com/khirsch/message-board` this repository
+* `git clone https://github.com/khirsch/moloko-plus`
 * `cd message-board`
 * `open index.html`
 
