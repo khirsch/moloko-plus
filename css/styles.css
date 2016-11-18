@@ -57,7 +57,7 @@ button {
 
 .header {
   width: 70%;
-  margin: 1% 15%;
+  margin: 2% 15% 0 15%;
 }
 
 .header p {
@@ -75,8 +75,8 @@ button {
 
 .content span {
   position: absolute;
-  top: 205px;
-  left: 275px;
+  top: 215px;
+  left: 270px;
   font-size: 18px;
   font-style: italic;
 }
@@ -96,7 +96,7 @@ button {
 .footer {
   clear: both;
   width: 30%;
-  margin: 0 35%;
+  margin: 2% 35% 0 35%;
   overflow: auto;
 }
 
