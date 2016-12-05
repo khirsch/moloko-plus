@@ -9,7 +9,7 @@ Moloko Plus is a product showcase created with HTML and CSS.
 ## Installation
 
 * `git clone https://github.com/khirsch/moloko-plus`
-* `cd message-board`
+* `cd moloko-plus`
 * `open index.html`
 
 ## Known Bugs
